@@ -1,0 +1,10 @@
+.service-card-premium {
+  will-change: transform, box-shadow;
+  backface-visibility: hidden;
+}
+
+/* Custom smooth easing for all child transitions */
+.service-card-premium * {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
